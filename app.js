@@ -136,7 +136,7 @@ app.get('/products/:id', async (req, res) => {
       return res.status(500).send('Internal Server Error');
     }
   });
-  
+
   app.get("/cart", async (req, res) => {
     try {
         const cartitem = await cart.find({});
@@ -145,6 +145,24 @@ app.get('/products/:id', async (req, res) => {
     } catch (error) {
         console.log(error);
     }
+});
+app.put("/cart/update/:id/:qty/:price", async (req, res) => {
+    try{
+        const cartitem = await cart.findByIdAndUpdate(req.params.id,{$set:{quantity:req.params.qty,price:req.params.price}});
+        res.json(cartitem);
+    }catch(error){
+        console.log(error);
+    }
+});
+app.delete("/cart/:id", async (req, res) => {
+    try {
+        const cartitem = await cart.findByIdAndDelete(req.params.id);
+        //console.log(products._id);
+        res.json(cartitem);
+    } catch (error) {
+        console.log(error);
+    }
+    
 });
 app.get("/auth/google/callback", passport.authenticate("google",{
     successRedirect:"http://localhost:3000/products",

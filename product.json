@@ -166,6 +166,63 @@
         "rating":4,
         "reviews":120,
         "company":"Flower seller"
+    },
+    {
+        "id_num":13,
+        "name":"Areca Palm - Plant",
+        "price":499,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-areca-palm-plant_600x600.jpg?v=1636456218",
+        "description":"Areca Palm is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
+        "category":"indoor",
+        "subCategory":"Indoor",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":120,
+        "company":"Indoor plant seller"
+    },
+    {
+        "id_num":14,
+        "name":"Philodendron, Selloum - Plant",
+        "price":399,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-philodendron-selloum-plant_600x600.jpg?v=1634225944",
+        "description":"Philodendron, Selloum is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
+        "category":"indore",
+        "subCategory":"Indore",
+        "quantity":1,
+        "stock":10,
+        "rating":3,
+        "reviews":120,
+        "company":"Indore plant seller"
+    },
+    {
+        "id_num":15,
+        "name":"Money Plant Golden, Scindapsus Golden - Plant",
+        "price":199,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-money-plant-golden-scindapsus-golden-plant-1-312380_large.jpg?v=1681379317",
+        "description":"Money Plant Golden, Scindapsus Golden is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
+        "category":"indore",
+        "subCategory":"Indore",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":120,
+        "company":"Indore plant seller"
+    },
+    {
+        "id_num":16,
+        "name":"Peperomia Magnoliifolia - Succulent Plant",
+        "price":199,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-peperomia-magnoliifolia-plant_large.jpg?v=1681378692",
+        "description":"Peperomia Magnoliifolia - Succulent Plant is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
+        "category":"indore",
+        "subCategory":"Indore",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":220,
+        "company":"Indore plant seller"
     }
+
 
 ]
