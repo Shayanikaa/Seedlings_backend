@@ -4,11 +4,15 @@ const prod = new mongoose.Schema({
     id_num: {
         type: Number,
         required: true,
-        unique: true
+       unique: true
     },
     name:{
         type: String,
         required: true,
+    },
+    mainprice:{
+        type: Number,
+        
     },
     price: {
         type: Number,
@@ -51,7 +55,7 @@ const prod = new mongoose.Schema({
     }
 
 },
-{ collection:'product-form'});
+{ collection:'products-form'});
 
 const model = mongoose.model('prodData',prod);
 module.exports = model

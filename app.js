@@ -13,13 +13,14 @@ const prod = require("./model/productModel");
 const cart = require("./model/CartModel");
 const passportSetup = require("./passport");
 const cookieparser = require("cookie-parser");
+const CLIENT_URL = process.env.CLIENT_URL;
 const app = express();
 
 const port = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:`${CLIENT_URL}`,
     methods: "GET, POST, PUT DELETE",
     credentials: true
     
@@ -78,7 +79,7 @@ app.post("/api/login",async(req,res)=>{
                 },process.env.SECRET
             )
             res.json({status:"ok",User:token});
-            console.log(token);
+            
         
         }else{
             res.json({status:"not ok", User:false});
@@ -110,31 +111,32 @@ app.get("/products", async (req, res) => {
 app.get('/products/:id', async (req, res) => {
     const productId = req.params.id;
     try {
-      const product = await prod.findById(productId);
-      console.log(product);
-      const productDetails =await cart.create({
-        name: product.name,
-        price: product.price,
-        image: product.image,
-        description: product.description,
-        category: product.category,
-        subCategory: product.subCategory,
-        quantity: product.quantity,
-        stock: product.stock,
-        rating: product.rating,
-
-        // Add any other fields you want to store in the "productDetails" database
-      });
-      await productDetails.save();
-      console.log(product);
-      if (!product) {
-        return res.status(404).send('Product not found');
+        const product = await prod.findById(productId);
+        console.log(product.price);
+        const productDetails =await cart.create({
+          name: product.name,
+          cost: product.mainprice,
+          price: product.price,
+          image: product.image,
+          description: product.description,
+          category: product.category,
+          subCategory: product.subCategory,
+          quantity: product.quantity,
+          stock: product.stock,
+          rating: product.rating,
+  
+          // Add any other fields you want to store in the "productDetails" database
+        });
+       await productDetails.save();
+        console.log(product);
+        if (!product) {
+          return res.status(404).send('Product not found');
+        }
+        return res.json(product);
+      } catch (err) {
+        console.error(err);
+        return res.status(500).send('Internal Server Error');
       }
-      return res.json(product);
-    } catch (err) {
-      console.error(err);
-      return res.status(500).send('Internal Server Error');
-    }
   });
 
   app.get("/cart", async (req, res) => {
@@ -148,6 +150,7 @@ app.get('/products/:id', async (req, res) => {
 });
 app.put("/cart/update/:id/:qty/:price", async (req, res) => {
     try{
+        
         const cartitem = await cart.findByIdAndUpdate(req.params.id,{$set:{quantity:req.params.qty,price:req.params.price}});
         res.json(cartitem);
     }catch(error){
@@ -165,7 +168,7 @@ app.delete("/cart/:id", async (req, res) => {
     
 });
 app.get("/auth/google/callback", passport.authenticate("google",{
-    successRedirect:"http://localhost:3000/products",
+    successRedirect:`${CLIENT_URL}/products`,
     failureRedirect:"login/failed"
 }))
 

@@ -9,6 +9,10 @@ const cart = new mongoose.Schema({
         required: true,
         unique: true
     },
+    cost:{
+        type: Number,
+        required: true
+    },
     price: {
         type: Number,
         required: true
@@ -43,7 +47,7 @@ const cart = new mongoose.Schema({
     }
 
 },
-{ collection:'cart-form'});
+{ collection:'cart-details'});
 
-const model = mongoose.model('cartData',cart);
+const model = mongoose.model('CartData',cart);
 module.exports = model

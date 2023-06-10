@@ -2,6 +2,7 @@
     {
         "id_num":1,
         "name":"Christmas Cactus",
+        "mainprice":459,
         "price":459,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-christmas-cactus-schlumbergera-succulent-plant_600x600.jpg?v=1636462531",
         "description":"Christmas cactus is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -16,6 +17,7 @@
     {
         "id_num":2,
         "name":"Aloe Vera",
+        "mainprice":359,
         "price":359,
         "image":"https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
         "description":"Aloe vera is a succulent plant species of the genus Aloe. An evergreen perennial, it originates from the Arabian Peninsula, but grows wild in tropical, semi-tropical, and arid climates around the world. It is cultivated for agricultural and medicinal uses.",
@@ -30,6 +32,7 @@
     {
         "id_num":3,
         "name":"Peace Lily, Spathiphyllum",
+        "mainprice":359,
         "price":359,
         "image":"https://images.unsplash.com/photo-1620311497344-bce841c9c060?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
         "description":"The peace lily, Spathiphyllum, is a popular houseplant that is easy to grow. It is native to tropical regions of the Americas. The plant is also known as the white sail plant, white arum lily, and white butterfly lily. It is a perennial plant that can live for many years.",
@@ -44,6 +47,7 @@
     {
         "id_num":4,
         "name":"Bauhinia Variegated, Kachnar, Orchid Tree",
+        "mainprice":1499,
         "price":1499,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-bauhinia-variegated-kachnar-orchid-tree-seeds_300x@2x.jpg?v=1634214748",
         "description":"Bauhinia Variegated, Kachnar, Orchid Tree is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -58,6 +62,7 @@
     {
         "id_num":5,
         "name":"Bougainvillea (Pink) - Plant",
+        "mainprice":499,
         "price":499,
         "image":"http://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-bougainvillea-pink-plant.jpg?v=1634214812",
         "description":"Bougainvillea is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -72,6 +77,7 @@
     {
         "id_num":6,
         "name":"Bougainvillea (Yellow) - Plant",
+        "mainprice":399,
         "price":399,
         "image":"https://m.media-amazon.com/images/I/51yno7gSjDL.jpg",
         "description":"Bougainvillea is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -86,6 +92,7 @@
     {
         "id_num":7,
         "name":"Bougainvillea (Orange) - Plant",
+        "mainprice":299,
         "price":299,
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_wLz17k_3iFyQlVKL0lnqR6Xj9dQU-nnjkw&usqp=CAU",
         "description":"Bougainvillea is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -100,6 +107,7 @@
     {
         "id_num":8,
         "name":"Bougainvillea (White) - Plant",
+        "mainprice":599,
         "price":599,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-bougainvillea-white-plant-16968652554380_600x600.jpg?v=1634214816",
         "description":"Bougainvillea is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -114,6 +122,7 @@
     {
         "id_num":9,
         "name":"dendrobium-orchid-plant",
+        "mainprice":899,
         "price":899,
         "image":"https://images.unsplash.com/photo-1576014131341-fe1486fb2475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1883&q=80",
         "description":"Dendrobium Orchid is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -128,6 +137,7 @@
     {
         "id_num":10,
         "name":"Phalaenopsis Orchid, Yellow - Plant",
+        "mainprice":1999,
         "price":1999,
         "image":"https://images.unsplash.com/photo-1525697865770-2e858b5de2ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         "description":"Phalaenopsis Orchid is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -142,6 +152,7 @@
     {
         "id_num":11,
         "name":"Orchid Plant, Dendrobium Orchid (Yellow) - Plant",
+        "mainprice":999,
         "price":999,
         "image":"https://images.unsplash.com/photo-1607197661735-4ddacba6bdf0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
         "description":"Orchid Plant is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -156,6 +167,7 @@
     {
         "id_num":12,
         "name":"Miniature Rose, Button Rose- Plant",
+        "mainprice":499,
         "price":499,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-miniature-rose-button-rose-any-color-plant_600x600.jpg?v=1636708766",
         "description":"Miniature Rose is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -170,6 +182,7 @@
     {
         "id_num":13,
         "name":"Areca Palm - Plant",
+        "mainprice":499,
         "price":499,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-g-areca-palm-plant_600x600.jpg?v=1636456218",
         "description":"Areca Palm is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -184,6 +197,7 @@
     {
         "id_num":14,
         "name":"Philodendron, Selloum - Plant",
+        "mainprice":399,
         "price":399,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-philodendron-selloum-plant_600x600.jpg?v=1634225944",
         "description":"Philodendron, Selloum is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -198,6 +212,7 @@
     {
         "id_num":15,
         "name":"Money Plant Golden, Scindapsus Golden - Plant",
+        "mainprice":199,
         "price":199,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-money-plant-golden-scindapsus-golden-plant-1-312380_large.jpg?v=1681379317",
         "description":"Money Plant Golden, Scindapsus Golden is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -212,6 +227,7 @@
     {
         "id_num":16,
         "name":"Peperomia Magnoliifolia - Succulent Plant",
+        "mainprice":199,
         "price":199,
         "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-peperomia-magnoliifolia-plant_large.jpg?v=1681378692",
         "description":"Peperomia Magnoliifolia - Succulent Plant is a popular houseplant that blooms in the winter. It is a member of the genus Schlumbergera, which is native to Brazil. The plant is also known as Thanksgiving cactus, Easter cactus, and holiday cactus. It is a perennial plant that can live for many years.",
@@ -222,7 +238,69 @@
         "rating":4,
         "reviews":220,
         "company":"Indore plant seller"
+    },
+    {
+        "id_num":17,
+        "name":"Vermicompost - 1 kg (Set of 2)",
+        "mainprice":169,
+        "price":169,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-vermicompost-1-kg-set-of-2-995020_600x600.jpg?v=1680589608",
+        "description":"Vermicompost (vermi-compost) is the product of the decomposition process using various species of worms, usually red wigglers, white worms, and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials, and vermicast.",
+        "category":"soil and fertilizers",
+        "subCategory":"soil and fertilizers",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":220,
+        "company":"soil and fertilizers seller"
+    },
+    {
+        "id_num":18,
+        "name":"Neem Raksha (Pure Neem Oil for Insect) - 100 ml",
+        "mainprice":149,
+        "price":149,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-neem-raksha-pure-neem-oil-for-insect-pest-control-100-ml-image-1_600x600.jpg?v=1634224750",
+        "description":"Neem Raksha is a pure neem oil that can be used for the treatment and control of different insect pests. Care Instructions.",
+        "category":"soil and fertilizers",
+        "subCategory":"soil and fertilizers",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":220,
+        "company":"soil and fertilizers seller"
+    },
+    {
+        "id_num":19,
+        "name":"Coco Peat Block - 4 kg (Expands Up to 60 - 70 L)",
+        "mainprice":139,
+        "price":139,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-soil-and-fertilizers-coco-peat-block-5-kg-16968789885068_600x600.jpg?v=1634216406",
+        "description":"Coco peat block is also known as coir pith or coir dust, it's made from coconut husks. Coco peat primarily consists of the coir fiber pith or coir dust which is obtained by processing coconut chip and removing the long fibers. Our peat block is low in EC and have very low salt content.",
+        "category":"soil and fertilizers",
+        "subCategory":"soil and fertilizers",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":220,
+        "company":"soil and fertilizers seller"
+    },
+    {
+        "id_num":20,
+        "name":"Bone Meal Powder - 500 g",
+        "mainprice":209,
+        "price":200,
+        "image":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-fertilizer-bone-meal-powder-250-gm-for-garden_600x600.jpg?v=1634214743",
+        "description":"Bone meal is made from defatted, dried animal bones that are ground to a fine powder. It's a mineral supplement.",
+        "category":"soil and fertilizers",
+        "subCategory":"soil and fertilizers",
+        "quantity":1,
+        "stock":10,
+        "rating":4,
+        "reviews":220,
+        "company":"soil and fertilizers seller"
     }
+    
+
 
 
 ]
